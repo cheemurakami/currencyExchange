@@ -2,10 +2,12 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
 import $ from "jquery";
+// import {apiCall} from "./apiCall.js";
 
 $(document).ready(function(){
-  $("#test").submit(function(event){
+  $("#convert").submit(function(event){
     event.preventDefault();
-    alert('hi');
+    let usDollars = parseInt($("#us-dollars").val());
+    console.log(typeof(usDollars));
   });
 });

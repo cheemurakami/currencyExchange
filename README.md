@@ -1,27 +1,26 @@
-# _Super Gelactic Age Calculator_
+# _Currency Exchanger_
 
-https://cheemurakami.github.io/superGalacticAgeCalculator/
+https://github.com/cheemurakami/currentExchange
 
-#### JavaScript & jQuery Project for Epicodus, _04/17/2020_
+#### JavaScript & jQuery Project for Epicodus, _04/24/2020_
 
 #### By _**Chisato Murakami**_
 
 ## Description
+This is a simple site to exchange currency using API calls.
 
 ## Project Specefications
 
 |  Behavior                 |  Input  | Output
 |---------------------------|---------|-------
-| **Spec 1: check if user input is number**| "20"| 20
-| **Spec 2: calculate users average life expectancy in Earth.sets == 80**(later: UI logic?)| 80 | 80
-| **Spec 3: Returns their age in Mercury years. (A Mercury year is .24 Earth years.)** | 20 | 83
-| **Spec 4: Returns their age in Venus years. (A Venus year is .62 Earth years.)** | 20 | 32
-| **Spec 5: Returns their age in Mars years. (A Mars year is 1.88 Earth years.)** | 20 | 11
-| **Spec 6: Returns their age in Jupiter years. (A Jupiter year is 11.86 Earth years.)**| 20 | 43
-| **Spec 7: Determines how many years a user has left to live on each planet.**    |
-| **Spec 8: // UI logic // add user input boxes for current age and life expectancy and add click button for the answers for each planet**|
-|  |
-| **Spec 9: Each button leads to the output boxes and will show the message corresponding to the age of user input.**    |
+| **Spec 1: User inputs numbe onlyr**| "20"| 20
+| **Spec 2: Call API and show the response when user clicks exchange button**| |
+| **Spec 3: User clicks exchange button to convert inputted U.S. dollars in to JPY** | |
+| **Spec 4: User should be able to select the currency type(select box?)** | |
+| **Spec 5:** | |
+| **Spec 6:**    |
+| **Spec 8:**|
+| **Spec 9:**    |
 
 
 
