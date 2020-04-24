@@ -6,7 +6,7 @@ import { apiCall } from "./apiCall.js";
 import { giphyApiCall } from "./giphyApiCall.js";
 
 $(document).ready(function () {
-
+  
   $(".tip").click(function () {
     (async () => {
       let gif = new giphyApiCall();
@@ -24,11 +24,8 @@ $(document).ready(function () {
     }
   });
 
-
-
   apiCall().then(function (response) {
     if (response) {
-
       let lastUpdate = new Date(response.time_last_update * 1000).toString();
       let nextUpdate = new Date(response.time_next_update * 1000).toString();
       console.log(lastUpdate)

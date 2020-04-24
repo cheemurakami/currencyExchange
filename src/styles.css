@@ -22,11 +22,11 @@ body{
   padding: auto;
 }
 .result{
-  line-height: 20vh;
+  line-height: 10vh;
   display:none;
   font-size: xx-large;
   width: 50vw;
-  height: 20vh;
+  height: 10vh;
   background-color: #e6e6e6;
   opacity: 95%;
   padding:auto;
@@ -35,9 +35,24 @@ body{
 .update{
   font-size: 16px;
   width: 50vw;
-  line-height: 10vh;
+  line-height: 5vh;
   background-color: #e6e6e6;
   opacity: 95%;
   padding:auto;
   margin:auto;
+}
+.tip{
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  display: flex;  
+  flex-direction: column;
+
+
+}
+.gif{
+  padding-bottom:2vh;
+  padding-top:2vh;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
 }
