@@ -6,17 +6,17 @@ import { apiCall } from "./apiCall.js";
 import { giphyApiCall } from "./giphyApiCall.js";
 
 $(document).ready(function () {
-  
+
   $(".tip").click(function () {
+    const gif = new giphyApiCall();
     (async () => {
-      let gif = new giphyApiCall();
       const response = await gif.getTravelGif();
       dispGif(response);
     })();
     function dispGif(response) {
-      console.log(response)
       if (response) {
-        let gifLink = response.data[0].images.downsized_large.url;
+        let index = gif.randomNumber(parseInt(response.data.length));
+        let gifLink = response.data[index].images.downsized_large.url;
         $(".travel-gif").html(`<img src=${gifLink}>`);
       } else {
         $(".travel-gif").text("Something went wrong. Please refresh.")
