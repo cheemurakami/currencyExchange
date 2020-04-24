@@ -1,35 +1,53 @@
 <html>
-  <head>
-    <title>currency exchanger</title>
-  </head>
-  <body>
-    <div class="container">
-      <form id='convert'>
-        <input id='us-dollars' type="number" value="0.00" min="0.00">
-        <select name="currency-type" id="currency-type">
-          <option value="AED">United Arab Emirates Dirham</option>
-          <option value="ARS">Argentine Peso</option>
-          <option value="AUD">Australian Dollar</option>
-          <option value="BGN">Bulgarian Lev</option>
-          <option value="BRL">Brazilian Real</option>
-          <option value="BSD">Bahamian Dollar</option>
-          <option value="CAD">Canadian Dollar</option>
-          <option value="CHF">Swiss Franc</option>
-          <option value="CLP">Chilean Peso</option>
-          <option value="CNY">Chinese Yuan</option>
-          <option value="COP">Colombian Peso</option>
-          <option value="CZK">Czech Koruna</option>
-          <option value="DKK">Danish Krone</option>
-          <option value="DOP">Dominican Peso</option>
-          <option value="EGP">Egyptian Pound</option>
-          <option value="EUR">Euro</option>
-          <option value="other">other</option>
-        </select>
-      <button type="submit">convert</button>
-      </form>
-      <div class="result">
 
+<head>
+  <title>currency exchanger</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Currency Converter</h1>
+        <p class="lead">Convert your U.S. dollars into different currency.</p>
       </div>
     </div>
-  </body>
+    <form id='convert'>
+      <div class="row">
+        <div class="col-sm-6">
+          <input id='us-dollars' type="number" value="0.00" min="0.00">
+        </div>
+        <div class="col-sm-6">
+          <select name="currency-type" id="currency-type">
+            <option value="AED">United Arab Emirates Dirham</option>
+            <option value="ARS">Argentine Peso</option>
+            <option value="AUD">Australian Dollar</option>
+            <option value="BGN">Bulgarian Lev</option>
+            <option value="BRL">Brazilian Real</option>
+            <option value="BSD">Bahamian Dollar</option>
+            <option value="CAD">Canadian Dollar</option>
+            <option value="CHF">Swiss Franc</option>
+            <option value="CLP">Chilean Peso</option>
+            <option value="CNY">Chinese Yuan</option>
+            <option value="COP">Colombian Peso</option>
+            <option value="CZK">Czech Koruna</option>
+            <option value="DKK">Danish Krone</option>
+            <option value="DOP">Dominican Peso</option>
+            <option value="EGP">Egyptian Pound</option>
+            <option value="EUR">Euro</option>
+            <option value="other">other</option>
+          </select>
+        </div>
+      </div>
+      <div class="convert-button">
+        <button type="submit">convert</button>
+      </div>
+    </form>
+    <div class="result">
+
+    </div>
+  </div>
+</body>
+
 </html>
