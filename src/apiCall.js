@@ -11,7 +11,6 @@ export function apiCall (){
           return false;
         })
         .then(function (responseJson) {
-          console.log(responseJson)
           return responseJson;
         });
 
