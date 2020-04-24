@@ -11,7 +11,6 @@ body{
   opacity: 90%;
   color: #339966
 }
-
 .form{
   margin-top: 4vh;
   margin-bottom: 4vh;
@@ -28,6 +27,15 @@ body{
   font-size: xx-large;
   width: 50vw;
   height: 20vh;
+  background-color: #e6e6e6;
+  opacity: 95%;
+  padding:auto;
+  margin:auto;
+}
+.update{
+  font-size: 16px;
+  width: 50vw;
+  line-height: 10vh;
   background-color: #e6e6e6;
   opacity: 95%;
   padding:auto;

@@ -5,19 +5,29 @@
 </head>
 
 <body>
-  <div class="container">
+ 
 
     <div class="container">
       <div class="jumbotron jumbotron-fluid">
         <h1 class="display-4">Currency Converter</h1>
         <p class="lead">Convert your U.S. dollars before you travel with your neko.</p>
       </div>
+      <div class="row update">
+
+        <div class="col-sm-6 last-update">
+        <span id="last-update"></span>
+        </div>
+        <div class="col-sm-6 next-update">
+          <span id="next-update"></span>    
+        </div>
+
+
+      </div>
+
+
       <div class="form">
         <form id='convert'>
           <div class="row">
-
-
-
             <div class="col-sm-6 input-group mb-3">
               <div class="input-group-prepend">
                 <span class="input-group-text">Enter Amount U.S. $</span>
@@ -27,8 +37,6 @@
                 <span class="input-group-text">.00</span>
               </div>
             </div>
-
-
             <div class="col-sm-6 input-group mb-3">
               <select class="custom-select" name="currency-type" id="currency-type">
                 <option value="AED">United Arab Emirates Dirham</option>
@@ -71,7 +79,7 @@
       </div>
 
     </div>
-  </div>
+  
 </body>
 
 </html>
