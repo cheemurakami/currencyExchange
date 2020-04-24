@@ -13,7 +13,7 @@ This is a simple site to exchange currency using API calls.
 
 |  Behavior                 |  Input  | Output
 |---------------------------|---------|-------
-| **Spec 1: User inputs numbe onlyr**| "20"| 20
+| **Spec 1: User inputs numbe only**| "20"| 20
 | **Spec 2: Call API and show the response when user clicks exchange button**| |
 | **Spec 3: User clicks exchange button to convert inputted U.S. dollars in to JPY** | |
 | **Spec 4: User should be able to select the currency type(select box?)** | |
