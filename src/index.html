@@ -5,7 +5,13 @@
   <body>
     <div class="container">
       <form id='convert'>
-        <input id='us-dollars' type="number" value="0.00" min="0.01">
+        <input id='us-dollars' type="number" value="0.00" min="0.00">
+        <select name="currency-type" id="currency-type">
+          <option value="AED">United Arab Emirates Dirham</option>
+          <option value="ARS">Argentine Peso</option>
+          <option value="AUD">Australian Dollar</option>
+          <option value="other">other</option>
+        </select>
       <button type="submit">convert</button>
       </form>
       <div class="result">

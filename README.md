@@ -13,14 +13,17 @@ This is a simple site to exchange currency using API calls.
 
 |  Behavior                 |  Input  | Output
 |---------------------------|---------|-------
-| **Spec 1: User inputs numbe only**| "20"| 20
-| **Spec 2: Call API and show the response when user clicks exchange button**| |
-| **Spec 3: User clicks exchange button to convert inputted U.S. dollars in to JPY** | |
-| **Spec 4: User should be able to select the currency type(select box?)** | |
-| **Spec 5:** | |
-| **Spec 6:**    |
-| **Spec 8:**|
-| **Spec 9:**    |
+| **Spec 1: User inputs number only**| "20"| 20
+| **Spec 2: Call API and show the response when user clicks convert button**| |
+| **Spec 3: When API response fails, display error message** | |
+| **Spec 4: User clicks exchange button to convert inputted U.S. dollars in to JPY** | |
+| **Spec 5: User should be able to select the several currency types(select box)** | |
+| **Spec 6: When user selected currency type does not exist in response object, display error message** | |
+---extra specs---
+| **Spec 7: display as of the date (use json props:time_last_update and time_next_update?)**    |
+| **Spec 8: add currency symbols (make a new class in a new file?)**    |
+| **Spec 9:**|
+| **Spec 10:**    |
 
 
 
