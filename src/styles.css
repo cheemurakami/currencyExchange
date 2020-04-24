@@ -1,3 +1,35 @@
 body{
+  font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
   text-align: center;
+  background-image: url("https://www.littleguydesign.com/wp-content/uploads/2019/12/travel-cat-tours-vacation-seo-little-guy-design-website-design-brand-seo-social-media-photography-video-omaha.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: auto;
+}
+.jumbotron{
+  margin-top: 4vh;
+  opacity: 90%;
+  color: #339966
+}
+
+.form{
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  padding: auto;
+}
+.convert-button{
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  padding: auto;
+}
+.result{
+  line-height: 20vh;
+  display:none;
+  font-size: xx-large;
+  width: 50vw;
+  height: 20vh;
+  background-color: #e6e6e6;
+  opacity: 95%;
+  padding:auto;
+  margin:auto;
 }

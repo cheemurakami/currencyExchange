@@ -7,44 +7,68 @@
 <body>
   <div class="container">
 
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
+    <div class="container">
+      <div class="jumbotron jumbotron-fluid">
         <h1 class="display-4">Currency Converter</h1>
-        <p class="lead">Convert your U.S. dollars into different currency.</p>
+        <p class="lead">Convert your U.S. dollars before you travel with your neko.</p>
       </div>
-    </div>
-    <form id='convert'>
-      <div class="row">
-        <div class="col-sm-6">
-          <input id='us-dollars' type="number" value="0.00" min="0.00">
+      <div class="form">
+        <form id='convert'>
+          <div class="row">
+
+
+
+            <div class="col-sm-6 input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">Enter Amount U.S. $</span>
+              </div>
+              <input id="us-dollars" type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+              <div class="input-group-append">
+                <span class="input-group-text">.00</span>
+              </div>
+            </div>
+
+
+            <div class="col-sm-6 input-group mb-3">
+              <select class="custom-select" name="currency-type" id="currency-type">
+                <option value="AED">United Arab Emirates Dirham</option>
+                <option value="ARS">Argentine Peso</option>
+                <option value="AUD">Australian Dollar</option>
+                <option value="BGN">Bulgarian Lev</option>
+                <option value="BRL">Brazilian Real</option>
+                <option value="BSD">Bahamian Dollar</option>
+                <option value="CAD">Canadian Dollar</option>
+                <option value="CHF">Swiss Franc</option>
+                <option value="CLP">Chilean Peso</option>
+                <option value="CNY">Chinese Yuan</option>
+                <option value="COP">Colombian Peso</option>
+                <option value="CZK">Czech Koruna</option>
+                <option value="DKK">Danish Krone</option>
+                <option value="DOP">Dominican Peso</option>
+                <option value="EGP">Egyptian Pound</option>
+                <option value="EUR">Euro</option>
+                <option value="other">other</option>
+              </select>
+              <div class="input-group-append">
+                <label class="input-group-text" for="inputGroupSelect02">Select Currency Type</label>
+              </div>
+            </div>
+          </div>
+          <div class="convert-button">
+            <button class="btn btn-outline-secondary btn-lg" type="submit">Convert</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="result">
+        <div class="converted-currency">
+          <p><span id="converted-currency"></span> <span id="currency-code"></span></p>
         </div>
-        <div class="col-sm-6">
-          <select name="currency-type" id="currency-type">
-            <option value="AED">United Arab Emirates Dirham</option>
-            <option value="ARS">Argentine Peso</option>
-            <option value="AUD">Australian Dollar</option>
-            <option value="BGN">Bulgarian Lev</option>
-            <option value="BRL">Brazilian Real</option>
-            <option value="BSD">Bahamian Dollar</option>
-            <option value="CAD">Canadian Dollar</option>
-            <option value="CHF">Swiss Franc</option>
-            <option value="CLP">Chilean Peso</option>
-            <option value="CNY">Chinese Yuan</option>
-            <option value="COP">Colombian Peso</option>
-            <option value="CZK">Czech Koruna</option>
-            <option value="DKK">Danish Krone</option>
-            <option value="DOP">Dominican Peso</option>
-            <option value="EGP">Egyptian Pound</option>
-            <option value="EUR">Euro</option>
-            <option value="other">other</option>
-          </select>
-        </div>
+        <!-- <div class="date">
+          <p>Time last updated: <span id="time-last"></span></p>
+          <p>Time next updated: <span id="time-next"></span></p>
+        </div> -->
       </div>
-      <div class="convert-button">
-        <button type="submit">convert</button>
-      </div>
-    </form>
-    <div class="result">
 
     </div>
   </div>
