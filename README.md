@@ -19,11 +19,9 @@ This is a simple site to exchange currency using API calls.
 | **Spec 4: User clicks exchange button to convert inputted U.S. dollars in to JPY** | |
 | **Spec 5: User should be able to select the several currency types(select box)** | |
 | **Spec 6: When user selected currency type does not exist in response object, display error message** | |
----extra specs---
 | **Spec 7: display as of the date (use json props:time_last_update and time_next_update?)**    |
-| **Spec 8: add currency symbols (make a new class in a new file?)**    |
-| **Spec 9:**|
-| **Spec 10:**    |
+| **Spec 8: add currency symbols (make a new class in a new file?) (Times up, I will try it another time!)**    |
+
 
 
 

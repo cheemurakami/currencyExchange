@@ -44,10 +44,12 @@ body{
 }
 .gif{
   background-color: #e6e6e6;
+  font-size: 18px;
 
 }
 .tip{
   cursor: pointer;
+  
   text-align: center;
   text-underline-position: below;
   justify-content: center;
